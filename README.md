@@ -1,1 +1,1 @@
-# pruebas_bootstrap
+# pruebas_bootstrap grid(sistema de rejilla)
