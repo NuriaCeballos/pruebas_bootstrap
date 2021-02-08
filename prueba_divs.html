@@ -1,0 +1,31 @@
+<html>
+   <head>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+       <style>
+           .row{background-color:antiquewhite;}
+           .col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12,.col,.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12
+           {border:1px solid #000000;text-align:center
+           }
+       </style>
+
+   
+   </head>
+   
+    <body>
+<p>ANCHO: <span id="lblWidth"><script>document.write(window.innerWidth);</script></span></p>
+   
+
+
+<script>
+document.getElementsByTagName("body")[0].onresize = function() {verAncho()};
+
+var x = 0;
+function verAncho() {
+  var txt = x += 1;
+  document.getElementById("lblWidth").innerHTML = window.innerWidth;
+}
+</script>
+   
+   
+    </body>
+</html>

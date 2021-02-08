@@ -1,0 +1,34 @@
+div[class^="container"] {
+    background-color:cornflowerblue;
+    min-height: 200px;
+}
+
+div[class^="col"] {
+    border: 1px solid
+}
+.verde {
+    height: 40px;
+    background: greenyellow;
+
+}
+.rosa {
+    height: 40px;
+    background: pink;
+}
+.azul{
+    height: 80px;
+    background: blue;
+   
+}
+.naranja {
+    height: 100px;
+    background: orange;
+}
+.rojo {
+    height: 500px;
+    background: red;
+}
+.blanco {
+    background: white;
+
+}
